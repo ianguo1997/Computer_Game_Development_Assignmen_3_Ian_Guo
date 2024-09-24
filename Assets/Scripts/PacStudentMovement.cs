@@ -19,7 +19,7 @@ public class PacStudentMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         transform.position = waypoints[currentWaypointIndex];
-        animator.SetInteger("Direction", -1);
+        //animator.SetInteger("Direction", -1);
     }
 
     void Update()
