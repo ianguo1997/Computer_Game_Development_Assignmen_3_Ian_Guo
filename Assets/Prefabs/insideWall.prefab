@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 794699649620971990}
   - component: {fileID: 5664525070178152781}
   m_Layer: 0
-  m_Name: InsideWall
+  m_Name: insideWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3555105353111457140, guid: 68024a94635154e38b2a7364aa25141e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68024a94635154e38b2a7364aa25141e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.46, y: 0.42}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
