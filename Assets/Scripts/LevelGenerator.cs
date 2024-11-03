@@ -3,7 +3,7 @@ using System.Collections.Generic; // This line is needed for Dictionary
 
 public class LevelGenerator : MonoBehaviour
 {
-    private int[,] levelMap = new int[,]
+    public int[,] levelMap = new int[,]
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
         {2,5,5,5,5,5,5,5,5,5,5,5,5,4},
@@ -30,7 +30,7 @@ public class LevelGenerator : MonoBehaviour
     public GameObject powerPelletPrefab;
     public GameObject tJunctionPrefab;
 
-    private float tileSize = 1.0f;
+    public float tileSize = 1.0f;
 
     // Dictionary to store rotations for each position in the original quadrant
     private Dictionary<Vector2, Quaternion> originalRotations = new Dictionary<Vector2, Quaternion>();
